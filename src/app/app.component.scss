@@ -1,0 +1,18 @@
+a.mat-button,
+a.mat-button:visited,
+a.mat-button:hover {
+  color: #bed219;
+  text-decoration: none;
+}
+
+a.mat-button:hover {
+  color: #ffffff;
+}
+
+:host ::ng-deep .mat-drawer {
+width: 100vw;
+}
+
+:host ::ng-deep .mat-drawer-container {
+  height: 100vh;
+}

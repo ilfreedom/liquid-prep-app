@@ -1,0 +1,33 @@
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="over">
+    <app-hamburger-menu (closeSidenav)="sidenav.close()"></app-hamburger-menu>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <app-header-title class="header" fxFlexFill (sidenavToggle)="sidenav.toggle()"></app-header-title>
+    <div>
+      <router-outlet></router-outlet>
+      <mat-toolbar class="toolbarNav">
+        <div class="container" fxLayout="row" fxFlexFill fxLayoutAlign="space-around center" >
+          <button mat-flat-button routerLink="sensors" routerLinkActive="active-link" class="btn-color" >
+            <div fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="0px">
+              <mat-icon class="material-symbols-outlined">sensors</mat-icon>
+              <span>Sensors</span>
+            </div>
+          </button>
+          <button mat-flat-button routerLink="home" routerLinkActive="active-link" class="btn-color">
+            <div fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="0px">
+              <mat-icon class="material-icons">home</mat-icon>
+              <span>Dashboard</span>
+            </div>
+          </button>
+          <button mat-flat-button routerLink="fields" routerLinkActive="active-link" class="btn-color">
+            <div fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="0px">
+              <mat-icon class="material-symbols-outlined">psychiatry</mat-icon>
+              <span>Field</span>
+            </div>
+          </button>
+        </div>
+      </mat-toolbar>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

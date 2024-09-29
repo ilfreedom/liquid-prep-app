@@ -1,0 +1,167 @@
+.crop-container {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.crop-status-container{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.advice-container{
+  margin-top: 8%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.btn-container {
+  margin-top: 10%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.custom-toolbar {
+    background-color: rgba(0, 0, 255, 0.774);
+    padding: 0 5px;
+}
+
+.soil-moisture-title{
+  margin-top: 4%;
+  color: white;
+  font-size: small;
+  text-align:center;
+}
+
+.soil-moisture-value{
+  margin-top: 28%;
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  text-align:center;
+}
+
+.soil-moisture-water{
+  margin-top: 2%;
+  color: black;
+  font-size: small;
+  text-align:center;
+}
+
+.soil-moisture-water-value{
+  margin-top: 4%;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  text-align:center;
+}
+
+
+.toolbar-title {
+    color: #fff;
+}
+
+.toolbar-spacer {
+    flex: 1 1 auto;
+}
+
+.white-icon {
+    color: #fff;
+}
+
+.topImage {
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    padding-top: 50px;
+    background-color: #edf5ff;
+}
+
+.date {
+    color: white;
+    font-size: 20px;
+    position: fixed !important;
+    top: 7%;
+    width: 100%;
+    text-align: center;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgHolder {
+    display: inline-block;
+    float: right;
+}
+
+.vertical-align-middle {
+    vertical-align: middle;
+}
+
+.temp {
+    font-size: 20px;
+}
+
+.yellow {
+    color: #FFCA26;
+}
+
+.blue {
+    color: #72b8e7;
+}
+
+.redText {
+    color: red;
+}
+
+.water-des-color{
+    color: #2E7DC4;
+}
+
+.title {
+    font-size: 23px;
+}
+
+.description {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+#img-container{
+  position: relative;
+}
+
+#measure-btn{
+  position: absolute;
+  left: 10%;
+  bottom: -25px;
+}
+
+.rotate-45 {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.txt-font {
+  font-size: x-large;
+}
+
+.btn-crop-status{
+  border-radius: 20px;
+  border-color: #899ae6;
+  font-size:12px;
+}
+
+.blue-icon {
+  color: #2F4FFE;
+}

@@ -1,0 +1,121 @@
+// Custom Theming for Angular Material
+@use '@angular/material' as mat;
+// For more information: https://material.angular.io/guide/theming
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+// TODO(v15): As of v15 mat.legacy-core no longer includes default typography styles.
+//  The following line adds:
+//    1. Default typography styles for all components
+//    2. Styles for typography hierarchy classes (e.g. .mat-headline-1)
+//  If you specify typography styles for the components you use elsewhere, you should delete this line.
+//  If you don't need the default component typographies but still want the hierarchy styles,
+//  you can delete this line and instead use:
+//    `@include mat.legacy-typography-hierarchy(mat.define-legacy-typography-config());`
+// @include mat.all-component-typographies();
+//@include mat.core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$liquid-prep-app-primary: mat.m2-define-palette(mat.$m2-indigo-palette);
+$liquid-prep-app-accent: mat.m2-define-palette(mat.$m2-pink-palette, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$liquid-prep-app-warn: mat.m2-define-palette(mat.$m2-red-palette);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$liquid-prep-app-theme: mat.m2-define-light-theme((
+  color: (
+    primary: $liquid-prep-app-primary,
+    accent: $liquid-prep-app-accent,
+    warn: $liquid-prep-app-warn,
+  )
+));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($liquid-prep-app-theme);
+
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-pagination-bullet-active {
+  background: #000 !important;
+}
+
+.mat-toolbar {
+  background-color: #EDF5FF;
+  color: #262626;
+}
+
+.color-low{
+  color: #D91E28;
+}
+
+.color-medium{
+  color: #D9781E;
+}
+
+.color-high{
+  color: #2C5900;
+}
+
+// Slide Toggle Styles
+
+mat-slide-toggle.mat-slide-toggle .mat-slide-toggle-bar {
+  height: 34px;
+  width: 52px;
+  border-radius: 100px;
+  background-color: #79747E;
+}
+
+mat-slide-toggle.mat-slide-toggle .mat-slide-toggle-thumb {
+  height: 24px;
+  width: 24px;
+}
+
+mat-slide-toggle.mat-slide-toggle .mat-slide-toggle-thumb-container {
+  top: 5px;
+  left: 5px;
+}
+
+mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-bar {
+  background-color: #79747E;
+}
+
+mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-thumb {
+  background-color: #fff;
+}
+
+mat-slide-toggle.mat-checked .mat-slide-toggle-thumb-container {
+  transform: translate3d(19px, 0, 0) !important;
+}
+
+/*customise the material theme*/
+.mat-flat-button.mat-primary-customise{
+  background-color: #2F4FFE;
+  color: white;
+}
+
+.mat-flat-button.mat-primary-reverse {
+  background-color: white;
+  color: #2F4FFE;
+}
