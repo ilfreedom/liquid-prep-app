@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/seed-date/seed-date.component.scss"],
+  "sourcesContent": ["header {\n  position: fixed;\n  top: 0;\n  z-index: 11;\n  transition: all 250ms ease-in-out;\n  margin-top: 50px;\n}\n\n.select-seed-date-header {\n  @extend header;\n}\n\n.select-date-container {\n  margin: auto;\n}\n\n.cardImg {\n  display: block;\n  width: 35%;\n  margin: auto;\n}\n\n.label {\n  display: block;\n  text-align: center;\n  font-size: 22px;\n  font-weight: 200;\n  padding: 20px 10px 10px 10px;\n}\n\n.datePicker {\n  display: block;\n  font-size: 16px;\n  margin: 0 auto;\n  max-width: 300px;\n}\n\n.dateAgo {\n  text-align: center;\n  font-size: 16px;\n  padding-bottom: 1.34375em;\n}\n\n.c-btn {\n  width: 50%;\n  margin: 0 auto;\n  display: block;\n  color: white;\n  background-color: #2F4FFE;\n  font-size: 16px;\n  letter-spacing: 2px;\n}\n"],
+  "mappings": "AAAA,OAAA,CAAA,wBACE,SAAA,MACA,IAAA,EACA,QAAA,GACA,WAAA,IAAA,KAAA,YACA,WAAA,KAOF,CAAA,sBAZA,OAaE,KAGF,CAAA,QACE,QAAA,MACA,MAAA,IAlBF,OAmBE,KAGF,CAAA,MACE,QAAA,MACA,WAAA,OACA,UAAA,KACA,YAAA,IA1BF,QA2BE,KAAA,KAAA,KAGF,CAAA,WACE,QAAA,MACA,UAAA,KAhCF,OAiCE,EAAA,KACA,UAAA,MAGF,CAAA,QACE,WAAA,OACA,UAAA,KACA,eAAA,UAGF,CAAA,MACE,MAAA,IA5CF,OA6CE,EAAA,KACA,QAAA,MACA,MAAA,KACA,iBAAA,QACA,UAAA,KACA,eAAA",
+  "names": []
+}

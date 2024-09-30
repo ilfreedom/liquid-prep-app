@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app.component.scss"],
+  "sourcesContent": ["a.mat-button,\na.mat-button:visited,\na.mat-button:hover {\n  color: #bed219;\n  text-decoration: none;\n}\n\na.mat-button:hover {\n  color: #ffffff;\n}\n\n:host ::ng-deep .mat-drawer {\nwidth: 100vw;\n}\n\n:host ::ng-deep .mat-drawer-container {\n  height: 100vh;\n}\n"],
+  "mappings": "AAAA,CAAA,CAAA,WAAA,CAAA,CAAA,UAAA,SAAA,CAAA,CAAA,UAAA,OAGE,MAAA,QACA,gBAAA,KAGF,CAAA,CAPA,UAOA,OACE,MAAA,KAGF,MAAA,UAAA,CAAA,WACA,MAAA,MAGA,MAAA,UAAA,CAAA,qBACE,OAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/header-title/header-title.component.scss"],
+  "sourcesContent": [".custom-toolbar {\n  background-color: #EDF5FF;\n  padding: 0 5px;\n  position: sticky;\n  top: 0;\n  z-index:100;\n}\n\n.toolbar-title {\n  color: #262626;\n  padding-left: 10%;\n}\n\n.toolbar-spacer {\n  flex: 1 1 auto;\n}\n\n.toolbar-title {\n  padding-left: 5px;\n  width: 100%;\n  text-align: left;\n}\n\n.blue-icon {\n  color: #2F4FFE;\n}\n\n.header-text-btn {\n  font-size: 14px;\n  font-weight: 500;\n  letter-spacing: 1.25px;\n  text-transform: uppercase;\n  background-color: transparent;\n  border: none;\n  text-align: right;\n  color: #2F4FFE;\n}\n\n.header .mat-toolbar-single-row {\n  padding: 0;\n}\n"],
+  "mappings": "AAAA,CAAA,eACE,iBAAA,QADF,QAEE,EAAA,IACA,SAAA,OACA,IAAA,EACA,QAAA,IAGF,CAAA,cACE,MAAA,QACA,aAAA,IAGF,CAAA,eACE,KAAA,EAAA,EAAA,KAGF,CATA,cAUE,aAAA,IACA,MAAA,KACA,WAAA,KAGF,CAAA,UACE,MAAA,QAGF,CAAA,gBACE,UAAA,KACA,YAAA,IACA,eAAA,OACA,eAAA,UACA,iBAAA,YACA,OAAA,KACA,WAAA,MACA,MAAA,QAGF,CAAA,OAAA,CAAA,uBAtCA,QAuCE",
+  "names": []
+}

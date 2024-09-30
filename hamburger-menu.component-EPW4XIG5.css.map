@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/hamburger-menu/hamburger-menu.component.scss"],
+  "sourcesContent": ["mat-sidenav {\n  width: 90%;\n}\n\n.closeBtn {\n  position: absolute;\n  right: 15px;\n  top: 20px;\n}\n\n.navDrawer {\n  padding: 20px;\n}\n\n.navHeader {\n  font-size: 14px;\n}\n\n:host ::ng-deep .mat-list-item-content .mat-icon {\n  margin-right: 10px;\n}\n\n:host ::ng-deep .mat-list-item-content {\n  padding-left: 0 !important;\n}\n\n"],
+  "mappings": "AAAA,YACE,MAAA,IAGF,CAAA,SACE,SAAA,SACA,MAAA,KACA,IAAA,KAGF,CAAA,UAVA,QAWE,KAGF,CAAA,UACE,UAAA,KAGF,MAAA,UAAA,CAAA,sBAAA,CAAA,SACE,aAAA,KAGF,MAAA,UAAA,CAJA,sBAKE,aAAA",
+  "names": []
+}

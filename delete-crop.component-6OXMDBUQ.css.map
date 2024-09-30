@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/delete-crop/delete-crop.component.scss"],
+  "sourcesContent": ["\n\n.primary-button {\n  background-color: #2F4FFE;\n  border-radius: 4px;\n  color: #FFF;\n}\n\n.secondary-button {\n  color: #2F4FFE;\n  background-color: transparent;\n}\n\n.action-buttons {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  &.horizontal {\n    flex-direction: row;\n    justify-content: space-around;\n  }\n}\n.primary-button,\n.secondary-button {\n  width: auto;\n  text-transform: uppercase;\n}\n"],
+  "mappings": "AAEA,CAAA,eACE,iBAAA,QADF,cAEE,IACA,MAAA,KAGF,CAAA,iBACE,MAAA,QACA,iBAAA,YAGF,CAAA,eACE,QAAA,KACA,eAAA,OACA,YAAA,OACA,CAJF,cAIE,CAAA,WACE,eAAA,IACA,gBAAA,aAGJ,CApBA,eAoBA,CAdA,iBAgBE,MAAA,KACA,eAAA",
+  "names": []
+}

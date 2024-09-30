@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;def317d07efad820edc1f8b30d42d141983cd09c701fe867eabd95436c475500;/Users/yongcan/workspaces/servicecorps/src/liquid-prep-app/src/app/components/dashboard/home/water-confirm-dialog.component.ts"],
+  "sourcesContent": ["\n      .dialog-buttons {\n        display: flex;\n        justify-content: right;\n        color: blue;\n      }\n    "],
+  "mappings": "AACM,CAAC,eACC,QAAS,KACT,gBAAiB,MACjB,MAAO,IACT",
+  "names": []
+}
